@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Maison de Redaowsa — Un toit pour chaque enfant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Stack+Sans+Headline:wght@700&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+    
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+    </script>
+</head>
+
+
+
+
+
+
+
+<script src="js/header.js"></script>
+<app-header></app-header>
+
+
+<body>
+
+    <section class="offre section" id="offre">
+        <div class="container offre__inner">
+      
+          <div class="offre__header">
+            <p class="eyebrow">Public</p>
+            <h2>Ce que nous offrons à chaque enfant</h2>
+            <p class="offre__intro">L'Aide Sociale à l'Enfance protège des milliers d'enfants en France. Mais face à la saturation du système, certains tombent entre les mailles du filet — sans famille d'accueil disponible, sans place en foyer. Ce sont ces enfants que nous accueillons.</p>
+          </div>
+      
+          <div class="offre__grid">
+      
+            <article class="offre-card">
+              <div class="offre-card__icon" aria-hidden="true">
+                <img src="images/toit.png" alt="dessin de maison">
+              </div>
+              <div class="offre-card__content">
+                <h3 class="offre-card__title">Un toit</h3>
+                <p class="offre-card__desc">Une adresse stable, un lit qui leur appartient, une maison où revenir chaque soir. Pas un couloir entre deux structures, mais un vrai chez-soi.</p>
+              </div>
+            </article>
+      
+            <article class="offre-card">
+              <div class="offre-card__icon" aria-hidden="true">
+                <img src="images/repere.png" alt="dessin de punaise plantée">
+            </div>
+              <div class="offre-card__content">
+                <h3 class="offre-card__title">Des repères</h3>
+                <p class="offre-card__desc">Les mêmes adultes, chaque jour. Une routine, des règles claires, des visages familiers. La continuité que le système ne peut pas toujours garantir.</p>
+              </div>
+            </article>
+      
+            <article class="offre-card">
+              <div class="offre-card__icon" aria-hidden="true">
+                <img src="images/enfance.png" alt="dessin de visage de bébé">
+              </div>
+              <div class="offre-card__content">
+                <h3 class="offre-card__title">Une enfance</h3>
+                <p class="offre-card__desc">L'école, les activités, les moments ordinaires du quotidien. Des journées qui ressemblent à celles des autres enfants — simples, normales, précieuses.</p>
+              </div>
+            </article>
+      
+            <article class="offre-card">
+              <div class="offre-card__icon" aria-hidden="true">
+                <img src="images/avenir.png" alt="dessin d'étoile">
+              </div>
+              <div class="offre-card__content">
+                <h3 class="offre-card__title">De l'avenir</h3>
+                <p class="offre-card__desc">Un projet construit avec eux, pas pour eux. Des adultes qui croient en leur potentiel et les accompagnent vers une vie autonome et digne.</p>
+              </div>
+            </article>
+      
+          </div>
+        </div>
+      </section>
+
+      <section class="fonctionnement section" id="fonctionnement">
+        <div class="container fonctionnement__inner">
+      
+          <div class="fonctionnement__content">
+            <div class="fonctionnement__header">
+              <p class="eyebrow">Comment ça marche</p>
+              <h2>Fonctionnement du lieu de vie</h2>
+            </div>
+            <p class="fonctionnement__desc">La Maison de Redaowsa fonctionne comme une vraie famille. Ce n'est pas un couloir d'hébergement ni une structure froide — c'est une maison, avec une cuisine partagée, des devoirs sur la table, des repas préparés ensemble.</p>
+            <p class="fonctionnement__desc">Des permanents de vie formés sont présents 24h/24, 7j/7. Ce sont les mêmes visages, chaque jour. Cette continuité n'est pas un détail — pour des enfants qui ont souvent connu l'instabilité, elle est essentielle.</p>
+            <a href="#engagement" class="btn btn--primary">Notre engagement</a>
+          </div>
+      
+          <div class="fonctionnement__media" aria-hidden="true">
+            <img class="fonctionnement__media-img fonctionnement__media-img--main"
+                 src="images/fonctionnement-main.png" alt="">
+            <img class="fonctionnement__media-img fonctionnement__media-img--top"
+                 src="images/fonctionnement-doodle-top.png" alt="">
+            <img class="fonctionnement__media-img fonctionnement__media-img--bottom"
+                 src="images/fonctionnement-doodle-bottom.png" alt="">
+            <img class="fonctionnement__media-img fonctionnement__media-img--side"
+                 src="images/fonctionnement-doodle-side.png" alt="">
+          </div>
+      
+        </div>
+      </section>
+
+
+      <section class="objectifs section" id="objectifs">
+        <div class="container objectifs__inner">
+          <div class="objectifs__header">
+            <p class="eyebrow">Démarche de qualité</p>
+            <h2>Objectifs de l'accompagnement</h2>
+          </div>
+          <ol class="objectifs__list etapes__list">
+            <li class="etape">
+              <div class="etape__icon" aria-hidden="true"><i class="ti ti-school"></i></div>
+              <div class="etape__content">
+                <h3 class="etape__name">Soutien éducatif</h3>
+                <p class="etape__desc">Mettre l'enfant dans les meilleures conditions possibles pour favoriser sa réussite scolaire, en l'accompagnant dans ses apprentissages et en renforçant sa confiance en lui.</p>
+              </div>
+            </li>
+            <li class="etape">
+              <div class="etape__icon" aria-hidden="true"><i class="ti ti-heart"></i></div>
+              <div class="etape__content">
+                <h3 class="etape__name">Soutien affectif</h3>
+                <p class="etape__desc">Offrir à l'enfant un espace de sécurité émotionnelle où il se sent écouté, valorisé et aimé, pour construire un attachement stable et épanouissant.</p>
+              </div>
+            </li>
+            <li class="etape">
+              <div class="etape__icon" aria-hidden="true"><i class="ti ti-users"></i></div>
+              <div class="etape__content">
+                <h3 class="etape__name">Soutien familial</h3>
+                <p class="etape__desc">Accompagner l'ensemble du foyer dans les défis du quotidien, en renforçant les liens familiaux et en aidant les parents à exercer leur rôle avec sérénité.</p>
+              </div>
+            </li>
+            <li class="etape">
+              <div class="etape__icon" aria-hidden="true"><i class="ti ti-stethoscope"></i></div>
+              <div class="etape__content">
+                <h3 class="etape__name">Soutien à la santé</h3>
+                <p class="etape__desc">Veiller au bien-être physique et mental de l'enfant en facilitant l'accès aux soins, en promouvant de bonnes habitudes de vie et en assurant un suivi régulier de sa santé.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+
+      <section class="partenaires section" id="partenaires">
+        <div class="container partenaires__inner">
+      
+          <div class="partenaires__header">
+            <p class="eyebrow">Partenaires</p>
+            <div class="partenaires__header-row">
+              <h2>Un réseau au service des enfants</h2>
+              <p class="partenaires__intro">La Maison de Redaowsa travaille en étroite collaboration avec des <strong>acteurs institutionnels, associatifs et privés.</strong></p>
+            </div>
+          </div>
+      
+          <div class="partenaires__content">
+      
+            <div class="partenaires__media" aria-hidden="true">
+              <img class="partenaires__media-img partenaires__media-img--top"
+                   src="images/partenaires-doodle-top.png" alt="">
+              <img class="partenaires__media-img partenaires__media-img--bottom"
+                   src="images/partenaires-doodle-bottom.png" alt="">
+            </div>
+      
+            <div class="partenaires__cards">
+      
+              <article class="partenaires-card">
+                <h3 class="partenaires-card__title">Conseil Départemental 44</h3>
+                <p class="partenaires-card__desc">Autorité de tutelle et financement principal via les dotations de placement ASE et contrôle du projet éducatif.</p>
+              </article>
+      
+              <article class="partenaires-card">
+                <h3 class="partenaires-card__title">Partenaires éducatifs & santé</h3>
+                <p class="partenaires-card__desc">Écoles, orthophonistes, pédopsychiatres, médecins scolaires : un réseau de soins pour chaque enfant.</p>
+              </article>
+      
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      <section class="reseau section" id="reseau">
+        <div class="container reseau__inner">
+      
+          <div class="reseau__header">
+            <p class="eyebrow">Besoins</p>
+            <h2>Fonctionnement et attentes</h2>
+            <p class="reseau__intro">La Maison de Redaowsa ne travaille pas seule. Chaque enfant est entouré d'un réseau d'acteurs institutionnels, éducatifs et médicaux qui collaborent pour construire son projet de vie. Voici qui intervient, et pourquoi.</p>
+          </div>
+      
+          <div class="reseau__cards">
+      
+            <!-- Card 1 — légal -->
+            <div class="reseau-card">
+              <div class="reseau-card__head reseau-card__head--green">
+                <h3 class="reseau-card__title">Cadre légal et institutionnel</h3>
+              </div>
+              <ul class="reseau-card__list">
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
+                    <i class="ti ti-gavel"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">Juge des enfants</p>
+                    <p class="besoins-item__sublabel">Décide du placement et assure le suivi judiciaire de l'enfant.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
+                    <i class="ti ti-building-bank"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">ASE / Conseil Départemental</p>
+                    <p class="besoins-item__sublabel">Finance, oriente et contrôle le projet éducatif de chaque enfant placé.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
+                    <i class="ti ti-shield-check"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">Protection Judiciaire de la Jeunesse</p>
+                    <p class="besoins-item__sublabel">Accompagnement coordonné pour les jeunes sous mandat pénal.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
+                    <i class="ti ti-heart-rate-monitor"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">CPAM</p>
+                    <p class="besoins-item__sublabel">Garantit la couverture maladie et l'accès aux soins de chaque enfant.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      
+            <!-- Card 2 — santé -->
+            <div class="reseau-card">
+              <div class="reseau-card__head reseau-card__head--orange">
+                <h3 class="reseau-card__title">Éducation, santé et soin</h3>
+              </div>
+              <ul class="reseau-card__list">
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
+                    <i class="ti ti-school"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">Éducation Nationale</p>
+                    <p class="besoins-item__sublabel">Scolarisation et suivi de la réussite scolaire de chaque enfant.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
+                    <i class="ti ti-accessible"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">SESSAD / IME</p>
+                    <p class="besoins-item__sublabel">Accompagnement spécialisé pour les enfants en situation de handicap.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
+                    <i class="ti ti-brain"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">Psychiatrie infanto-juvénile</p>
+                    <p class="besoins-item__sublabel">Soutien psychologique pour les enfants qui en ont besoin, sans stigma.</p>
+                  </div>
+                </li>
+                <li class="besoins-item">
+                  <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
+                    <i class="ti ti-stethoscope"></i>
+                  </div>
+                  <div class="besoins-item__content">
+                    <p class="besoins-item__label">Médecin scolaire</p>
+                    <p class="besoins-item__sublabel">Suivi de la santé physique et dépistage des besoins médicaux.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+      
+          <div class="reseau__cta">
+            <a href="#engagement" class="btn btn--primary">Notre engagement</a>
+          </div>
+      
+        </div>
+      </section>
+      <section class="qualite section" id="qualite">
+        <div class="container qualite__inner">
+      
+          <div class="qualite__header">
+            <p class="eyebrow">Comment ça marche</p>
+            <h2>Notre démarche qualité</h2>
+          </div>
+      
+          <div class="qualite__rows">
+      
+            <div class="qualite__row">
+              <div class="qualite-card">
+                <h3 class="qualite-card__title">Évaluation et ajustements</h3>
+                <p class="qualite-card__desc">À l'arrivée de chaque enfant, une période d'observation de 3 mois permet à l'équipe d'évaluer ses besoins spécifiques — scolaires, affectifs, médicaux. Un projet de vie individualisé est ensuite co-construit avec l'enfant, l'ASE et les partenaires. Ce projet est réévalué régulièrement pour s'adapter à son évolution.</p>
+                <a href="#" class="btn btn--outline">En savoir plus</a>
+              </div>
+              <img class="qualite__img" src="images/qualite-evaluation.jpg" alt="">
+            </div>
+      
+            <div class="qualite__row qualite__row--reverse">
+              <img class="qualite__img" src="images/qualite-transparence.jpg" alt="">
+              <div class="qualite-card">
+                <h3 class="qualite-card__title">Transparence et communication</h3>
+                <p class="qualite-card__desc">Nous maintenons un lien régulier avec les familles, l'ASE et les référents de chaque enfant. Des bilans trimestriels sont partagés avec toutes les parties prenantes. Les parents et tuteurs légaux sont invités à participer à la vie du foyer, dans le respect du cadre judiciaire. Nous croyons que la confiance se construit dans la durée et dans la vérité.</p>
+                <a href="#" class="btn btn--outline">En savoir plus</a>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+
+      <section class="testimonial section">
+        <div class="container">
+          <div class="testimonial__header">
+            <p class="eyebrow">À propos</p>
+            <h2>Fatouma Abdoulkader</h2>
+            <p class="testimonial__role">Fondatrice &amp; Permanente — La Maison de Redaowsa</p>
+            </div>
+    
+          <blockquote class="testimonial__quote">
+            <p>« Ces enfants n'ont pas choisi leur histoire. Notre rôle est de leur offrir un présent stable et un avenir possible. »</p>
+            <footer>— Fatouma Abdoulkader</footer>
+          </blockquote>
+  
+          <div class="section__cta">
+            <a href="#apropos" class="btn btn--primary">En savoir plus</a>
+          </div>
+        </div>
+      </section>
+
+ <section class="contact section" id="contact">
+      <img class="contact__paper" src="images/contact-bg.png" alt="" aria-hidden="true">
+      <div class="container contact__inner">
+    
+        <div class="contact__illustration">
+          <img src="images/logo-contact.png" alt="Logo La Maison de Mouma">
+          <address class="contact__address">
+            <div class="contact__info">
+              <i class="ti ti-map-pin" aria-hidden="true"></i>
+              <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
+            </div>
+            <div class="contact__info">
+              <i class="ti ti-mail" aria-hidden="true"></i>
+              <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
+            </div>
+            <div class="contact__info">
+              <i class="ti ti-phone" aria-hidden="true"></i>
+              <a href="tel:+33636946161">06 36 94 61 61</a>
+            </div>
+          </address>
+        </div>
+    
+        <div class="contact__form-wrap">
+          <h2>Contact</h2>
+          <form class="contact__form" action="#" method="post">
+            <div class="field-row">
+              <label class="field">
+                <span>Prénom</span>
+                <input type="text" name="firstname" placeholder="Jean">
+              </label>
+              <label class="field">
+                <span>Nom</span>
+                <input type="text" name="lastname" placeholder="Paul">
+              </label>
+            </div>
+            <label class="field">
+              <span>Adresse email</span>
+              <input type="email" name="email" placeholder="exemple@mail.fr">
+            </label>
+            <label class="field">
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Rédigez votre message..."></textarea>
+            </label>
+            <button type="submit" class="btn btn--orange btn--full">Envoyer</button>
+          </form>
+        </div>
+    
+      </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer__inner">
+          <div class="footer__brand">
+            <div class="footer__logo-row">
+              <img src="images/logo-footer.svg" alt="" width="61" height="46">
+              <div>
+                <p class="footer__name">Lieu de vie Redaowsa</p>
+                <p class="footer__tagline">Lieu de vie et d'accueil agrée</p>
+              </div>
+            </div>
+            <p class="footer__desc">Un toit, des repères, un avenir. Nous accueillons des enfants confiés à l'ASE dans un cadre familial, stable et bienveillant.</p>
+            <div class="footer__social">
+              <a href="#" aria-label="LinkedIn"><img src="images/icon-linkedin.svg" alt="" width="24" height="24"></a>
+              <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="" width="24" height="24"></a>
+            </div>
+          </div>
+    
+          <div class="footer__links">
+            <div class="footer__col">
+              <h3>Navigation</h3>
+              <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Valeurs</a></li>
+                <li><a href="#services">Lieux de vie</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col--contact">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <img src="images/tabler-icon-home.svg" alt="" width="24" height="24">
+                  <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
+                </li>
+                <li>
+                  <img src="images/tabler-icon-mail.svg" alt="" width="24" height="24">
+                  <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
+                </li>
+                <li>
+                  <img src="images/tabler-icon-phone.svg" alt="" width="24" height="24">
+                  <a href="tel:+33636946161">06 36 94 61 61</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <img class="footer__line" src="images/footer-line.png" alt="" aria-hidden="true">
+    
+        <div class="container footer__bottom">
+          <p>© 2025 Maison de Redaowsa — Tous droits réservés</p>
+          <div class="footer__legal">
+            <a href="#">Confidentialité</a>
+            <a href="#">Mentions légales</a>
+          </div>
+        </div>
+    </footer>
+</body>
+
+
+
+<script src="script.js"></script>
+
+</html>
