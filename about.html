@@ -10,412 +10,291 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Stack+Sans+Headline:wght@700&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <script>
-    window.addEventListener('scroll', () => {
-      const navbar = document.querySelector('.navbar');
-    
-      if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-    </script>
-    <script src="script.js"></script>
 </head>
 <body>
-    <script src="js/header.js"></script>
-    <app-header></app-header>
 
-      <main>
+  <app-header></app-header>
 
-        <section class="histoire" id="histoire">
-            <div class="container histoire__inner">
-          
-              <div class="histoire__media" aria-hidden="true">
-                <img class="histoire__media-img histoire__media-img--main"
-                     src="images/histoire-main.png" alt="">
-                <img class="histoire__media-img histoire__media-img--top-left"
-                     src="images/star1.png" alt="">
-                <img class="histoire__media-img histoire__media-img--mid-left"
-                     src="images/star2.png" alt="">
-                <img class="histoire__media-img histoire__media-img--bottom-right"
-                     src="images/abheart.png" alt="">
-                <img class="histoire__media-img histoire__media-img--rotated"
-                     src="images/rainbow.png" alt="">
-              </div>
-          
-              <div class="histoire__content">
-                <div class="histoire__header">
-                  <p class="eyebrow">Histoire</p>
-                  <h2>Création et mission</h2>
-                </div>
-          
-                <div class="histoire__body">
-                  <p>Les Lieux de Vie & d'Accueil (LVA), reconnus par la loi du 2 janvier 2002, sont une réponse humaine et familiale. Des adultes permanents partagent le quotidien des enfants dans un cadre stable, chaleureux et individualisé.</p>
-                  <p>La Maison de Redaowsa s'inscrit dans cette démarche : accueillir les enfants que personne n'accueille, sans condition, avec bienveillance et professionnalisme.</p>
-                </div>
-          
-                <a href="#engagement" class="btn btn--primary">Notre engagement</a>
-              </div>
-          
-            </div>
-          </section>
-          <section class="timeline section" id="apropos">
-            <img class="timeline__paper" src="images/torn-paper.png" alt="" aria-hidden="true">
-          
-            <div class="container timeline__inner">
-              <div class="timeline__header">
-                <p class="eyebrow">à Propos</p>
-                <div class="timeline__titles">
-                  <h2>Contexte et objectif</h2>
-                  <p>Un LVA fonctionne comme une grande famille,
-                    <strong>encadrée par des professionnels formés et des permanents de vie</strong>
-                    présents au quotidien.
-                  </p>
-                </div>
-              </div>
-          
-              <img class="timeline__doodle" src="images/doodle-sun.png" alt="" aria-hidden="true">
-          
-              <div class="timeline__path" aria-hidden="true">
-                <img class="timeline__wave" src="images/path.png" alt="">
-                </div>
-              </div>
-              <div class="section__cta">
-                <a href="#" class="btn btn--primary">En savoir plus</a>
-              </div>
-           
-            </div>
-          </section>
-          <section class="etapes section" id="etapes">
-            <div class="container etapes__inner">
-          
-              <h2 class="etapes__title">Les étapes</h2>
-          
-              <ol class="etapes__list">
-          
-                <li class="etape">
-                  <div class="etape__icon" aria-hidden="true">
-                    <i class="ti ti-gavel"></i>
-                  </div>
-                  <div class="etape__content">
-                    <h3 class="etape__name">Orientation par l'ASE ou le juge</h3>
-                    <p class="etape__desc">L'enfant est confié suite à une décision du juge des enfants ou du Président du Conseil Départemental. Un dossier est transmis à l'équipe.</p>
-                  </div>
-                </li>
-          
-                <li class="etape">
-                  <div class="etape__icon" aria-hidden="true">
-                    <i class="ti ti-clipboard-check"></i>
-                  </div>
-                  <div class="etape__content">
-                    <h3 class="etape__name">Accueil & évaluation</h3>
-                    <p class="etape__desc">Dès l'arrivée, l'enfant est accueilli par les permanents dans un cadre chaleureux. Une période d'observation permet de comprendre ses besoins spécifiques.</p>
-                  </div>
-                </li>
-          
-                <li class="etape">
-                  <div class="etape__icon" aria-hidden="true">
-                    <i class="ti ti-user-heart"></i>
-                  </div>
-                  <div class="etape__content">
-                    <h3 class="etape__name">Projet de vie individualisé</h3>
-                    <p class="etape__desc">Un projet personnalisé est élaboré avec l'enfant, l'ASE et les partenaires (école, santé, psy). Il est révisé régulièrement.</p>
-                  </div>
-                </li>
+  <main>
 
-                
-          
-                <li class="etape">
-                  <div class="etape__icon" aria-hidden="true">
-                    <i class="ti ti-home-heart"></i>
-                  </div>
-                  <div class="etape__content">
-                    <h3 class="etape__name">Vie quotidienne encadrée</h3>
-                    <p class="etape__desc">Les permanents partagent le quotidien : repas, devoirs, activités, sorties. L'accent est mis sur la stabilité des repères et la reconstruction de confiance.</p>
-                  </div>
-                </li>
-          
-                <li class="etape">
-                  <div class="etape__icon" aria-hidden="true">
-                    <i class="ti ti-rocket"></i>
-                  </div>
-                  <div class="etape__content">
-                    <h3 class="etape__name">Préparation à l'autonomie</h3>
-                    <p class="etape__desc">À l'approche de la majorité, des actions concrètes accompagnent vers l'autonomie : formation, logement, emploi via le Contrat Jeune Majeur.</p>
-                  </div>
-                </li>
-                
-          
-              </ol>
-            </div>
-          </section>
+    <section class="histoire" id="histoire">
+      <div class="container histoire__inner">
 
-          <section class="besoins section" id="besoins">
-            <div class="container besoins__inner">
-          
-              <div class="besoins__header">
-                <p class="eyebrow">Besoins</p>
-                <h2>Fonctionnement et attentes</h2>
-              </div>
-          
-              <div class="besoins__cards">
-          
-                <!-- Card 1 — enfants -->
-                <div class="besoins-card besoins-card--green">
-                  <h3 class="besoins-card__title">Ce dont les enfants ont besoin</h3>
-          
-                  <ul class="besoins-card__list">
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
-                        <i class="ti ti-home"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Un hébergement stable et durable</p>
-                        <p class="besoins-item__sublabel">Pas une solution provisoire, un vrai chez-soi</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
-                        <i class="ti ti-users"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Des adultes référents permanents</p>
-                        <p class="besoins-item__sublabel">Les mêmes visages, au quotidien</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
-                        <i class="ti ti-calendar-time"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Une routine structurante</p>
-                        <p class="besoins-item__sublabel">Repas, école, activités — des journées prévisibles</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
-                        <i class="ti ti-heart"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Un suivi émotionnel bienveillant</p>
-                        <p class="besoins-item__sublabel">Écoute, présence, sécurité affective</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--green" aria-hidden="true">
-                        <i class="ti ti-school"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Une scolarité accompagnée</p>
-                        <p class="besoins-item__sublabel">Aide aux devoirs, suivi scolaire, valorisation</p>
-                      </div>
-                    </li>
-                  </ul>
-          
-                  <p class="besoins-card__note besoins-card__note--green">
-                    La Maison de Redaowsa s'inscrit dans cette démarche : accueillir.
-                  </p>
-                </div>
-          
-                <!-- Card 2 — attentes -->
-                <div class="besoins-card besoins-card--orange">
-                  <h3 class="besoins-card__title">Ce que nous attendons</h3>
-          
-                  <ul class="besoins-card__list">
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
-                        <i class="ti ti-handshake"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Collaboration avec l'ASE et les familles</p>
-                        <p class="besoins-item__sublabel">Un travail en lien avec les acteurs existants</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
-                        <i class="ti ti-scale"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Respect du cadre légal et des projets</p>
-                        <p class="besoins-item__sublabel">Chaque enfant a un projet personnalisé formalisé</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
-                        <i class="ti ti-message-dots"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Transparence et communication régulière</p>
-                        <p class="besoins-item__sublabel">Bilans, échanges, signalements si nécessaire</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
-                        <i class="ti ti-clock-check"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Engagement dans la durée</p>
-                        <p class="besoins-item__sublabel">Pas d'accueil à court terme sans plan de sortie</p>
-                      </div>
-                    </li>
-                    <li class="besoins-item">
-                      <div class="besoins-item__icon besoins-item__icon--orange" aria-hidden="true">
-                        <i class="ti ti-walk"></i>
-                      </div>
-                      <div class="besoins-item__content">
-                        <p class="besoins-item__label">Respect du rythme de l'enfant</p>
-                        <p class="besoins-item__sublabel">Chaque intégration se fait progressivement</p>
-                      </div>
-                    </li>
-                  </ul>
-          
-                  <p class="besoins-card__note besoins-card__note--orange">
-                    La Maison de Redaowsa s'inscrit dans cette démarche : accueillir.
-                  </p>
-                </div>
-          
-              </div>
-          
-              <div class="besoins__cta">
-                <a href="#engagement" class="btn btn--primary">Notre engagement</a>
-              </div>
-          
-            </div>
-          </section>
-
-          <section class="testimonial section">
-            <div class="container">
-              <div class="testimonial__header">
-                <p class="eyebrow">À propos</p>
-                <h2>Fatouma Abdoulkader</h2>
-                <p class="testimonial__role">Fondatrice &amp; Permanente — La Maison de Redaowsa</p>
-              </div>
-      
-              <blockquote class="testimonial__quote">
-                <p>« Ces enfants n'ont pas choisi leur histoire. Notre rôle est de leur offrir un présent stable et un avenir possible. »</p>
-                <footer>— Fatouma Abdoulkader</footer>
-              </blockquote>
-      
-              <div class="section__cta">
-                <a href="#apropos" class="btn btn--primary">En savoir plus</a>
-              </div>
-            </div>
-          </section>
-          
-    <section class="contact section" id="contact">
-        <img class="contact__paper" src="images/contact-bg.png" alt="" aria-hidden="true">
-        <div class="container contact__inner">
-      
-          <div class="contact__illustration">
-            <img src="images/logo-contact.png" alt="Logo La Maison de Mouma">
-            <address class="contact__address">
-              <div class="contact__info">
-                <i class="ti ti-map-pin" aria-hidden="true"></i>
-                <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
-              </div>
-              <div class="contact__info">
-                <i class="ti ti-mail" aria-hidden="true"></i>
-                <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
-              </div>
-              <div class="contact__info">
-                <i class="ti ti-phone" aria-hidden="true"></i>
-                <a href="tel:+33636946161">06 36 94 61 61</a>
-              </div>
-            </address>
-          </div>
-      
-          <div class="contact__form-wrap">
-            <h2>Contact</h2>
-            <form class="contact__form" action="#" method="post">
-              <div class="field-row">
-                <label class="field">
-                  <span>Prénom</span>
-                  <input type="text" name="firstname" placeholder="Jean">
-                </label>
-                <label class="field">
-                  <span>Nom</span>
-                  <input type="text" name="lastname" placeholder="Paul">
-                </label>
-              </div>
-              <label class="field">
-                <span>Adresse email</span>
-                <input type="email" name="email" placeholder="exemple@mail.fr">
-              </label>
-              <label class="field">
-                <span>Message</span>
-                <textarea name="message" rows="5" placeholder="Rédigez votre message..."></textarea>
-              </label>
-              <button type="submit" class="btn btn--orange btn--full">Envoyer</button>
-            </form>
-          </div>
-      
+        <div class="histoire__media" aria-hidden="true">
+          <img class="histoire__media-img histoire__media-img--main"
+               src="images/histoire-main.png" alt="">
+          <img class="histoire__media-img histoire__media-img--top-left"
+               src="images/star1.png" alt="">
+          <img class="histoire__media-img histoire__media-img--mid-left"
+               src="images/star2.png" alt="">
+          <img class="histoire__media-img histoire__media-img--bottom-right"
+               src="images/abheart.png" alt="">
+          <img class="histoire__media-img histoire__media-img--rotated"
+               src="images/rainbow.png" alt="">
         </div>
-      </section>
-      
-      </main>
+
+        <div class="histoire__content">
+          <div class="histoire__header">
+            <p class="eyebrow">Histoire</p>
+            <h2>Création et mission</h2>
+          </div>
+
+          <div class="histoire__body">
+            <p>Les Lieux de Vie & d'Accueil (LVA), reconnus par la loi du 2 janvier 2002, sont une réponse humaine et familiale. Des adultes permanents partagent le quotidien des enfants dans un cadre stable, chaleureux et individualisé.</p>
+            <p>La Maison de Redaowsa s'inscrit dans cette démarche : accueillir les enfants que personne n'accueille, sans condition, avec bienveillance et professionnalisme.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="timeline section" id="apropos">
+      <div class="container timeline__inner">
+    
+        <div class="timeline__header">
+          <p class="eyebrow">à Propos</p>
+          <div class="timeline__titles">
+            <h2>Contexte et objectif</h2>
+            <p>Un LVA fonctionne comme une grande famille,
+              <strong>encadrée par des professionnels formés et des permanents de vie</strong>
+              présents au quotidien.
+            </p>
+          </div>
+        </div>
+    
+        <ol class="timeline__steps">
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/law.png" alt="">
+            </div>
+            <p class="timeline__label">Orientation par<br>l'ASE ou le juge</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/evaluation.svg" alt="">
+            </div>
+            <p class="timeline__label">Accueil &<br>évaluation</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/individual.svg" alt="">
+            </div>
+            <p class="timeline__label">Projet de vie<br>individualisé</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/House.svg" alt="">
+            </div>
+            <p class="timeline__label">Vie quotidienne<br>encadrée</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/autonomy.svg" alt="">
+            </div>
+            <p class="timeline__label">Préparation à<br>l'autonomie</p>
+          </li>
+        </ol>
+    
+      </div>
+    </section>
+
+    <section class="etapes section" id="etapes">
+      <div class="container etapes__inner">
+
+        <h2 class="etapes__title">Les étapes</h2>
+
+        <ol class="etapes__list">
+
+          <li class="etape">
+            <div class="etape__icon" aria-hidden="true">
+              <img src="images/law.png" alt="">
+            </div>
+            <div class="etape__content">
+              <h3 class="etape__name">Orientation par l'ASE ou le juge</h3>
+              <p class="etape__desc">L'enfant est confié suite à une décision du juge des enfants ou du Président du Conseil Départemental. Un dossier est transmis à l'équipe.</p>
+            </div>
+          </li>
+
+          <li class="etape">
+            <div class="etape__icon" aria-hidden="true">
+              <img src="images/evaluation.svg" alt="">
+            </div>
+            <div class="etape__content">
+              <h3 class="etape__name">Accueil & évaluation</h3>
+              <p class="etape__desc">Dès l'arrivée, l'enfant est accueilli par les permanents dans un cadre chaleureux. Une période d'observation permet de comprendre ses besoins spécifiques.</p>
+            </div>
+          </li>
+
+          <li class="etape">
+            <div class="etape__icon" aria-hidden="true">
+              <img src="images/individual.svg" alt="">
+            </div>
+            <div class="etape__content">
+              <h3 class="etape__name">Projet de vie individualisé</h3>
+              <p class="etape__desc">Un projet personnalisé est élaboré avec l'enfant, l'ASE et les partenaires (école, santé, psy). Il est révisé régulièrement.</p>
+            </div>
+          </li>
+
+          <li class="etape">
+            <div class="etape__icon" aria-hidden="true">
+              <img src="images/House.svg" alt="">
+            </div>
+            <div class="etape__content">
+              <h3 class="etape__name">Vie quotidienne encadrée</h3>
+              <p class="etape__desc">Les permanents partagent le quotidien : repas, devoirs, activités, sorties. L'accent est mis sur la stabilité des repères et la reconstruction de confiance.</p>
+            </div>
+          </li>
+
+          <li class="etape">
+            <div class="etape__icon" aria-hidden="true">
+              <img src="images/autonomy.svg" alt="">
+            </div>
+            <div class="etape__content">
+              <h3 class="etape__name">Préparation à l'autonomie</h3>
+              <p class="etape__desc">À l'approche de la majorité, des actions concrètes accompagnent vers l'autonomie : formation, logement, emploi via le Contrat Jeune Majeur.</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <section class="besoins section" id="besoins">
+      <div class="container besoins__inner">
+
+        <div class="besoins__header">
+          <p class="eyebrow">Besoins</p>
+          <h2>Fonctionnement et attentes</h2>
+        </div>
+
+        <div class="besoins__cards">
+
+          <!-- Card 1 — enfants -->
+          <div class="besoins-card besoins-card--green">
+            <h3 class="besoins-card__title">Ce dont les enfants ont besoin</h3>
+
+            <ul class="besoins-card__list">
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Un hébergement stable et durable</p>
+                  <p class="besoins-item__sublabel">Pas une solution provisoire, un vrai chez-soi</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Des adultes référents permanents</p>
+                  <p class="besoins-item__sublabel">Les mêmes visages, au quotidien</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Une routine structurante</p>
+                  <p class="besoins-item__sublabel">Repas, école, activités — des journées prévisibles</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Un suivi émotionnel bienveillant</p>
+                  <p class="besoins-item__sublabel">Écoute, présence, sécurité affective</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Une scolarité accompagnée</p>
+                  <p class="besoins-item__sublabel">Aide aux devoirs, suivi scolaire, valorisation</p>
+                </div>
+              </li>
+            </ul>
+
+            <p class="besoins-card__note besoins-card__note--green">
+              La Maison de Redaowsa s'inscrit dans cette démarche : accueillir.
+            </p>
+          </div>
+
+          <!-- Card 2 — attentes -->
+          <div class="besoins-card besoins-card--orange">
+            <h3 class="besoins-card__title">Ce que nous attendons</h3>
+
+            <ul class="besoins-card__list">
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Collaboration avec l'ASE et les familles</p>
+                  <p class="besoins-item__sublabel">Un travail en lien avec les acteurs existants</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Respect du cadre légal et des projets</p>
+                  <p class="besoins-item__sublabel">Chaque enfant a un projet personnalisé formalisé</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Transparence et communication régulière</p>
+                  <p class="besoins-item__sublabel">Bilans, échanges, signalements si nécessaire</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Engagement dans la durée</p>
+                  <p class="besoins-item__sublabel">Pas d'accueil à court terme sans plan de sortie</p>
+                </div>
+              </li>
+              <li class="besoins-item">
+                <div class="besoins-item__content">
+                  <p class="besoins-item__label">Respect du rythme de l'enfant</p>
+                  <p class="besoins-item__sublabel">Chaque intégration se fait progressivement</p>
+                </div>
+              </li>
+            </ul>
+
+            <p class="besoins-card__note besoins-card__note--orange">
+              La Maison de Redaowsa s'inscrit dans cette démarche : accueillir.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="besoins__cta">
+          <a href="#engagement" class="btn btn--primary">Notre engagement</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonial section">
+      <div class="container">
+        <div class="testimonial__header">
+          <p class="eyebrow">À propos</p>
+          <h2>Fatouma Abdoulkader</h2>
+          <p class="testimonial__role">Fondatrice &amp; Permanente — La Maison de Redaowsa</p>
+        </div>
+
+        <blockquote class="testimonial__quote">
+          <p>« Ces enfants n'ont pas choisi leur histoire. Notre rôle est de leur offrir un présent stable et un avenir possible. »</p>
+          <footer>— Fatouma Abdoulkader</footer>
+        </blockquote>
+
+        <div class="section__cta">
+          <a href="#apropos" class="btn btn--primary">En savoir plus</a>
+        </div>
+      </div>
+    </section>
+
+  <app-contact></app-contact>
+
+  </main>
+
+  <app-footer></app-footer>
+
+  <script src="script.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/contact.js"></script>
   
-
-
-      <footer class="footer">
-        <div class="container footer__inner">
-          <div class="footer__brand">
-            <div class="footer__logo-row">
-              <img src="images/logo-footer.svg" alt="" width="61" height="46">
-              <div>
-                <p class="footer__name">Lieu de vie Redaowsa</p>
-                <p class="footer__tagline">Lieu de vie et d'accueil agrée</p>
-              </div>
-            </div>
-            <p class="footer__desc">Un toit, des repères, un avenir. Nous accueillons des enfants confiés à l'ASE dans un cadre familial, stable et bienveillant.</p>
-            <div class="footer__social">
-              <a href="#" aria-label="LinkedIn"><img src="images/icon-linkedin.svg" alt="" width="24" height="24"></a>
-              <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="" width="24" height="24"></a>
-            </div>
-          </div>
-    
-          <div class="footer__links">
-            <div class="footer__col">
-              <h3>Navigation</h3>
-              <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#services">Valeurs</a></li>
-                <li><a href="#services">Lieux de vie</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-            <div class="footer__col footer__col--contact">
-              <h3>Contact</h3>
-              <ul>
-                <li>
-                  <img src="images/tabler-icon-home.svg" alt="" width="24" height="24">
-                  <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
-                </li>
-                <li>
-                  <img src="images/tabler-icon-mail.svg" alt="" width="24" height="24">
-                  <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
-                </li>
-                <li>
-                  <img src="images/tabler-icon-phone.svg" alt="" width="24" height="24">
-                  <a href="tel:+33636946161">06 36 94 61 61</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    
-        <img class="footer__line" src="images/footer-line.png" alt="" aria-hidden="true">
-    
-        <div class="container footer__bottom">
-          <p>© 2025 Maison de Redaowsa — Tous droits réservés</p>
-          <div class="footer__legal">
-            <a href="#">Confidentialité</a>
-            <a href="#">Mentions légales</a>
-          </div>
-        </div>
-      </footer>
-    
-
 </body>
+</html>

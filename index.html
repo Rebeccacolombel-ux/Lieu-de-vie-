@@ -35,14 +35,14 @@
         <div class="hero__content">
           <p class="eyebrow eyebrow--bold">Lieu de vie et d'accueil</p>
           <h1 class="hero__title">
-            Un foyer pour <span class="text-orange">chaque enfant</span>
+            Un toit pour <span class="text-orange">chaque enfant</span>
           </h1>
           <p class="hero__text">
             La Maison de Redaowsa accueille les enfants que le système ne peut plus protéger, en leur offrant stabilité, bienveillance et avenir.
           </p>
           <div class="hero__actions">
-            <a href="#apropos" class="btn btn--hero">En savoir plus</a>
-            <a href="#contact" class="btn btn--hero">Nous soutenir</a>
+            <a href="about.html" class="btn btn--hero">En savoir plus</a>
+            <a href="contact.html" class="btn btn--hero">Nous soutenir</a>
           </div>
         </div>
         <div class="hero__visual">
@@ -54,7 +54,7 @@
     <!-- 2 maisons -->
     <section class="houses section" id="services">
       <div class="container">
-        <div class="section__intro">
+        <div class="houses__intro">
           <p class="eyebrow">Les maisons</p>
           <h2>2 maisons, une vision</h2>
           <p class="stats__text">
@@ -107,7 +107,7 @@
         </div>
 
         <div class="section__cta">
-          <a href="#" class="btn btn--primary">Découvrir</a>
+          <a href="maisons.html" class="btn btn--primary">Découvrir</a>
         </div>
       </div>
     </section>
@@ -154,7 +154,7 @@
         </div>
 
         <div class="section__cta">
-          <a href="#" class="btn btn--primary">En savoir plus</a>
+          <a href="valeurs.html" class="btn btn--primary">En savoir plus</a>
         </div>
       </div>
     </section>
@@ -210,33 +210,10 @@
       </div>
     </section>
 
-    <!-- Contexte & timeline 
-    <section class="timeline section" id="apropos">
-      <img class="timeline__paper" alt="" aria-hidden="true">
-      <div class="container timeline__inner">
-        <div class="timeline__header">
-          <p class="eyebrow">à Propos</p>
-          <div class="timeline__titles">
-            <h2>Contexte et objectif</h2>
-            <p>Un LVA fonctionne comme une grande famille, <strong>encadrée par des professionnels formés et des permanents de vie</strong> présents au quotidien.</p>
-          </div>
-          </div>
-  
-        <img class="timeline__doodle" src="images/doodle-sun.png" alt="" aria-hidden="true">
-        <div>
-          <img class="timeline__wave" src="images/path.png" alt="" aria-hidden="true">
-        </div>
-
-     
-
-        <div class="section__cta section__cta--left">
-          <a href="#" class="btn btn--primary">En savoir plus</a>
-        </div>
-      </div>
-    </section>
-    -->
-
-    <section class="timeline section" id="apropos">
+    
+<!--  
+    
+<section class="timeline section" id="apropos">
       <img class="timeline__paper" src="images/torn-paper.png" alt="" aria-hidden="true">
     
       <div class="container timeline__inner">
@@ -263,6 +240,67 @@
      
       </div>
     </section>
+    -->
+
+
+    <section class="timeline section" id="timeline">
+      <div class="container timeline__inner">
+    
+        <div class="timeline__header">
+          <p class="eyebrow">à Propos</p>
+          <div class="timeline__titles">
+            <h2>Contexte et objectif</h2>
+            <p>Un LVA fonctionne comme une grande famille,
+              <strong>encadrée par des professionnels formés et des permanents de vie</strong>
+              présents au quotidien.
+            </p>
+          </div>
+        </div>
+    
+        <ol class="timeline__steps">
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/law.png" alt="">
+            </div>
+            <p class="timeline__label">Orientation par<br>l'ASE ou le juge</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/evaluation.svg" alt="">
+            </div>
+            <p class="timeline__label">Accueil &<br>évaluation</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/individual.svg" alt="">
+            </div>
+            <p class="timeline__label">Projet de vie<br>individualisé</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/House.svg" alt="">
+            </div>
+            <p class="timeline__label">Vie quotidienne<br>encadrée</p>
+          </li>
+    
+          <li class="timeline__step">
+            <div class="timeline__icon">
+              <img src="images/autonomy.svg" alt="">
+            </div>
+            <p class="timeline__label">Préparation à<br>l'autonomie</p>
+          </li>
+        </ol>
+    
+        <div class="section__cta">
+          <a href="about.html#etapes" class="btn btn--primary">En savoir plus</a>
+        </div>
+    
+      </div>
+    </section>
+    
 
     <!-- Partenaires -->
     <section class="partners section" id="partenaires">
@@ -287,7 +325,7 @@
         </div>
 
         <div class="section__cta">
-          <a href="#" class="btn btn--primary">Découvrir foyers</a>
+          <a href="maisons.html" class="btn btn--primary">Découvrir lieux de vie</a>
         </div>
       </div>
     </section>
@@ -312,149 +350,18 @@
       </div>
     </section>
 
-    <!-- Contact 
-    <section class="contact section" id="contact">
-      <img class="contact__paper" src="images/torn-paper.png" alt="" aria-hidden="true">
-      <div class="container contact__inner">
-        <div class="contact__illustration">
-          <img src="images/logo-contact.png" alt="Illustration mains et enfant">
-        </div>
-        <div class="contact__form-wrap">
-          <h2>Contact</h2>
-          <p class="contact__subtitle">Lorem ipsum dolor sit amet consectetur.</p>
-          <form class="contact__form" action="#" method="post">
-            <label class="field">
-              <span>Prénom et Nom</span>
-              <input type="text" name="name" placeholder="Votre nom">
-            </label>
-            <label class="field">
-              <span>Adresse email</span>
-              <input type="email" name="email" placeholder="votre@email.fr">
-            </label>
-            <label class="field">
-              <span>Message</span>
-              <textarea name="message" rows="4" placeholder="Votre message"></textarea>
-            </label>
-            <button type="submit" class="btn btn--orange btn--full">Envoyer</button>
-          </form>
-        </div>
-      </div>
-    </section>
+   
 
-    -->
-
-    <section class="contact section" id="contact">
-      <img class="contact__paper" src="images/contact-bg.png" alt="" aria-hidden="true">
-      <div class="container contact__inner">
-    
-        <div class="contact__illustration">
-          <img src="images/logo-contact.png" alt="Logo La Maison de Mouma">
-          <address class="contact__address">
-            <div class="contact__info">
-              <i class="ti ti-map-pin" aria-hidden="true"></i>
-              <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
-            </div>
-            <div class="contact__info">
-              <i class="ti ti-mail" aria-hidden="true"></i>
-              <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
-            </div>
-            <div class="contact__info">
-              <i class="ti ti-phone" aria-hidden="true"></i>
-              <a href="tel:+33636946161">06 36 94 61 61</a>
-            </div>
-          </address>
-          </div>
-  
-        <div class="contact__form-wrap">
-          <h2>Contact</h2>
-          <form class="contact__form" action="#" method="post">
-            <div class="field-row">
-              <label class="field">
-                <span>Prénom</span>
-                <input type="text" name="firstname" placeholder="Jean">
-              </label>
-              <label class="field">
-                <span>Nom</span>
-                <input type="text" name="lastname" placeholder="Paul">
-              </label>
-            </div>
-            <label class="field">
-              <span>Adresse email</span>
-              <input type="email" name="email" placeholder="exemple@mail.fr">
-            </label>
-            <label class="field">
-              <span>Message</span>
-              <textarea name="message" rows="5" placeholder="Rédigez votre message..."></textarea>
-            </label>
-            <button type="submit" class="btn btn--orange btn--full">Envoyer</button>
-          </form>
-        </div>
-  
-      </div>
-    </section>
-    
+   
+  <app-contact></app-contact>   
     
 
   </main>
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <div class="footer__logo-row">
-          <img src="images/logo-footer.svg" alt="" width="61" height="46">
-          <div>
-            <p class="footer__name">Lieu de vie Redaowsa</p>
-            <p class="footer__tagline">Lieu de vie et d'accueil agrée</p>
-          </div>
-        </div>
-        <p class="footer__desc">Un toit, des repères, un avenir. Nous accueillons des enfants confiés à l'ASE dans un cadre familial, stable et bienveillant.</p>
-        <div class="footer__social">
-          <a href="#" aria-label="LinkedIn"><img src="images/icon-linkedin.svg" alt="" width="24" height="24"></a>
-          <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="" width="24" height="24"></a>
-        </div>
-      </div>
 
-      <div class="footer__links">
-        <div class="footer__col">
-          <h3>Navigation</h3>
-          <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#apropos">À propos</a></li>
-            <li><a href="#services">Valeurs</a></li>
-            <li><a href="#services">Lieux de vie</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__col footer__col--contact">
-          <h3>Contact</h3>
-          <ul>
-            <li>
-              <img src="images/tabler-icon-home.svg" alt="" width="24" height="24">
-              <span>20 rue Marcelle Toublanc,<br>44850 Le Cellier</span>
-            </li>
-            <li>
-              <img src="images/tabler-icon-mail.svg" alt="" width="24" height="24">
-              <a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a>
-            </li>
-            <li>
-              <img src="images/tabler-icon-phone.svg" alt="" width="24" height="24">
-              <a href="tel:+33636946161">06 36 94 61 61</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  
-    <img class="footer__line" src="images/footer-line.png" alt="" aria-hidden="true">
 
-    <div class="container footer__bottom">
-      <p>© 2025 Maison de Redaowsa — Tous droits réservés</p>
-      <div class="footer__legal">
-        <a href="#">Confidentialité</a>
-        <a href="#">Mentions légales</a>
-      </div>
-    </div>
-  </footer>
+  <app-footer></app-footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>

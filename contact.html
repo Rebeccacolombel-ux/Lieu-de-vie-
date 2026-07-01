@@ -1,0 +1,46 @@
+<section class="contact">
+    <div class="contact__container">
+      <!-- Colonne gauche : infos -->
+      <div class="contact__infos">
+        <div class="contact__illustration">
+          <img src="images/logo-contact.png" alt="Illustration bébé endormi">
+        </div>
+  
+        <address class="contact__coordonnees">
+          <p>20 rue Marcelle Toublanc,<br>44850 Le Cellier</p>
+          <p><a href="mailto:lamaisondemouma@hotmail.fr">lamaisondemouma@hotmail.fr</a></p>
+          <p><a href="tel:0636946161">06 36 94 61 61</a></p>
+        </address>
+      </div>
+  
+      <!-- Colonne droite : formulaire -->
+      <div class="contact__form-wrapper">
+        <h2 class="contact__title">Contact</h2>
+  
+        <form class="contact__form" action="#" method="POST">
+          <div class="contact__row">
+            <div class="contact__field">
+              <label for="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+            </div>
+            <div class="contact__field">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Paul" required>
+            </div>
+          </div>
+  
+          <div class="contact__field">
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" placeholder="exemple@mail.fr" required>
+          </div>
+  
+          <div class="contact__field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Rédigez votre message..." rows="6" required></textarea>
+          </div>
+  
+          <button type="submit" class="contact__submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+</section>
