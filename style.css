@@ -260,8 +260,13 @@ strong {
   overflow: hidden;
   padding-top: 88px;
   padding-bottom: 120px;
-  background: var(--color-white);
   min-height: 100vh;
+
+  background-color: #F0F0FE;
+  background-image: url("images/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .hero__inner {
@@ -316,11 +321,7 @@ strong {
 }
 
 .hero {
-  background-color: #F0F0FE;
-  background-image: url("images/background-image.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
+
 }
 
 /* Houses */
